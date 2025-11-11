@@ -49,8 +49,26 @@ python day_1a_prompt_to_action.py
 
 📖 [Day 1 Full Documentation](Day-1/README.md)
 
-### Day 2: Coming Soon
-Custom Functions, MCP Tools, and Long-Running Operations
+### Day 2: Agent Tools & Best Practices
+**Topics:** Custom Tools, MCP Integration, Long-Running Operations
+
+**Notebooks:**
+- [Day 2a: Agent Tools](Day-2-Notebooks/day-2a-agent-tools.ipynb) - Build custom function tools and use agents as tools
+- [Day 2b: Tools Best Practices](Day-2-Notebooks/day-2b-agent-tools-best-practices.ipynb) - MCP integration and long-running operations
+
+**Python Scripts:**
+- [day_2a_agent_tools.py](Day-2/day_2a_agent_tools.py) - Custom function tools and agent delegation
+- [day_2b_agent_tools_best_practices.py](Day-2/day_2b_agent_tools_best_practices.py) - MCP concepts and approval workflows
+
+**Key Concepts:**
+- Custom Function Tools (Python functions as agent tools)
+- Agent Tools (using agents as tools for delegation)
+- Built-in Code Executor for reliable calculations
+- Model Context Protocol (MCP) for external service integration
+- Long-Running Operations with human-in-the-loop
+- Pausable and resumable workflows
+
+📖 [Day 2 Full Documentation](Day-2/README.md)
 
 ### Day 3-5: Coming Soon
 More content to be added as the course progresses
@@ -75,7 +93,14 @@ AI-Agents-Intensive-Course/
 │   ├── day-1a-from-prompt-to-action.ipynb
 │   └── day-1b-agent-architectures.ipynb
 │
-└── Day-2-Notebooks/              # Day 2 content (upcoming)
+├── Day-2/                        # Day 2 Python scripts
+│   ├── README.md                 # Day 2 documentation
+│   ├── day_2a_agent_tools.py
+│   └── day_2b_agent_tools_best_practices.py
+│
+└── Day-2-Notebooks/              # Day 2 Jupyter notebooks
+    ├── day-2a-agent-tools.ipynb
+    └── day-2b-agent-tools-best-practices.ipynb
 ```
 
 ## 🔧 Technologies Used
