@@ -70,7 +70,29 @@ python day_1a_prompt_to_action.py
 
 📖 [Day 2 Full Documentation](Day-2/README.md)
 
-### Day 3-5: Coming Soon
+### Day 3: Memory Management & Context Engineering
+**Topics:** Sessions, Long-Term Memory, Context Compaction
+
+**Notebooks:**
+- [Day 3a: Agent Sessions](Day-3-Notebooks/day-3a-agent-sessions.ipynb) - Sessions, state management, and persistence
+- [Day 3b: Agent Memory](Day-3-Notebooks/day-3b-agent-memory.ipynb) - Long-term memory and cross-session recall
+
+**Python Scripts:**
+- [day_3a_agent_sessions.py](Day-3/day_3a_agent_sessions.py) - Stateful agents with sessions and context compaction
+- [day_3b_agent_memory.py](Day-3/day_3b_agent_memory.py) - Long-term memory management and automation
+
+**Key Concepts:**
+- Sessions vs Memory (short-term vs long-term)
+- InMemorySessionService vs DatabaseSessionService
+- Context Compaction for reducing token costs
+- Session State for sharing data within conversations
+- Memory Retrieval strategies (load_memory vs preload_memory)
+- Automating memory storage with callbacks
+- Memory Consolidation concepts
+
+📖 [Day 3 Full Documentation](Day-3/README.md)
+
+### Day 4-5: Coming Soon
 More content to be added as the course progresses
 
 ## 🛠️ Project Structure
@@ -98,9 +120,18 @@ AI-Agents-Intensive-Course/
 │   ├── day_2a_agent_tools.py
 │   └── day_2b_agent_tools_best_practices.py
 │
-└── Day-2-Notebooks/              # Day 2 Jupyter notebooks
-    ├── day-2a-agent-tools.ipynb
-    └── day-2b-agent-tools-best-practices.ipynb
+├── Day-2-Notebooks/              # Day 2 Jupyter notebooks
+│   ├── day-2a-agent-tools.ipynb
+│   └── day-2b-agent-tools-best-practices.ipynb
+│
+├── Day-3/                        # Day 3 Python scripts
+│   ├── README.md                 # Day 3 documentation
+│   ├── day_3a_agent_sessions.py
+│   └── day_3b_agent_memory.py
+│
+└── Day-3-Notebooks/              # Day 3 Jupyter notebooks
+    ├── day-3a-agent-sessions.ipynb
+    └── day-3b-agent-memory.ipynb
 ```
 
 ## 🔧 Technologies Used
