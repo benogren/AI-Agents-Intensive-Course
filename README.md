@@ -92,7 +92,30 @@ python day_1a_prompt_to_action.py
 
 📖 [Day 3 Full Documentation](Day-3/README.md)
 
-### Day 4-5: Coming Soon
+### Day 4: Agent Observability & Evaluation
+**Topics:** Debugging, Logging, Testing, Metrics
+
+**Notebooks:**
+- [Day 4a: Agent Observability](Day-4-Notebooks/day-4a-agent-observability.ipynb) - Logs, traces, metrics, and debugging
+- [Day 4b: Agent Evaluation](Day-4-Notebooks/day-4b-agent-evaluation.ipynb) - Testing, regression detection, and quality assurance
+
+**Python Scripts:**
+- [day_4a_agent_observability.py](Day-4/day_4a_agent_observability.py) - Debugging with logs and custom plugins
+- [day_4b_agent_evaluation.py](Day-4/day_4b_agent_evaluation.py) - Systematic evaluation and testing
+
+**Key Concepts:**
+- Observability pillars (logs, traces, metrics)
+- ADK web UI for interactive debugging
+- LoggingPlugin for production monitoring
+- Custom plugins and callbacks
+- Test case creation and management
+- Evaluation metrics (response_match_score, tool_trajectory_avg_score)
+- CLI evaluation with `adk eval` command
+- User simulation for dynamic testing
+
+📖 [Day 4 Full Documentation](Day-4/README.md)
+
+### Day 5: Coming Soon
 More content to be added as the course progresses
 
 ## 🛠️ Project Structure
@@ -129,9 +152,18 @@ AI-Agents-Intensive-Course/
 │   ├── day_3a_agent_sessions.py
 │   └── day_3b_agent_memory.py
 │
-└── Day-3-Notebooks/              # Day 3 Jupyter notebooks
-    ├── day-3a-agent-sessions.ipynb
-    └── day-3b-agent-memory.ipynb
+├── Day-3-Notebooks/              # Day 3 Jupyter notebooks
+│   ├── day-3a-agent-sessions.ipynb
+│   └── day-3b-agent-memory.ipynb
+│
+├── Day-4/                        # Day 4 Python scripts
+│   ├── README.md                 # Day 4 documentation
+│   ├── day_4a_agent_observability.py
+│   └── day_4b_agent_evaluation.py
+│
+└── Day-4-Notebooks/              # Day 4 Jupyter notebooks
+    ├── day-4a-agent-observability.ipynb
+    └── day-4b-agent-evaluation.ipynb
 ```
 
 ## 🔧 Technologies Used
