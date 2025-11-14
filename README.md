@@ -115,8 +115,28 @@ python day_1a_prompt_to_action.py
 
 📖 [Day 4 Full Documentation](Day-4/README.md)
 
-### Day 5: Coming Soon
-More content to be added as the course progresses
+### Day 5: Agent2Agent Communication & Production Deployment
+**Topics:** A2A Protocol, Remote Agents, Production Hosting
+
+**Notebooks:**
+- [Day 5a: Agent2Agent Communication](Day-5-Notebooks/day-5a-agent2agent-communication.ipynb) - A2A protocol and cross-organization agents
+- [Day 5b: Agent Deployment](Day-5-Notebooks/day-5b-agent-deployment.ipynb) - Deploying to production with Vertex AI
+
+**Python Scripts:**
+- [day_5a_agent2agent_communication.py](Day-5/day_5a_agent2agent_communication.py) - A2A protocol and remote agent integration
+- [day_5b_agent_deployment.py](Day-5/day_5b_agent_deployment.py) - Production deployment guide
+
+**Key Concepts:**
+- A2A Protocol for agent-to-agent communication
+- Exposing agents with to_a2a() and agent cards
+- Consuming remote agents with RemoteA2aAgent
+- Cross-framework, cross-language, cross-organization patterns
+- Deploying to Vertex AI Agent Engine
+- Production architecture and configuration
+- Vertex AI Memory Bank for long-term memory
+- Cost management and cleanup strategies
+
+📖 [Day 5 Full Documentation](Day-5/README.md)
 
 ## 🛠️ Project Structure
 
@@ -161,9 +181,18 @@ AI-Agents-Intensive-Course/
 │   ├── day_4a_agent_observability.py
 │   └── day_4b_agent_evaluation.py
 │
-└── Day-4-Notebooks/              # Day 4 Jupyter notebooks
-    ├── day-4a-agent-observability.ipynb
-    └── day-4b-agent-evaluation.ipynb
+├── Day-4-Notebooks/              # Day 4 Jupyter notebooks
+│   ├── day-4a-agent-observability.ipynb
+│   └── day-4b-agent-evaluation.ipynb
+│
+├── Day-5/                        # Day 5 Python scripts
+│   ├── README.md                 # Day 5 documentation
+│   ├── day_5a_agent2agent_communication.py
+│   └── day_5b_agent_deployment.py
+│
+└── Day-5-Notebooks/              # Day 5 Jupyter notebooks
+    ├── day-5a-agent2agent-communication.ipynb
+    └── day-5b-agent-deployment.ipynb
 ```
 
 ## 🔧 Technologies Used
